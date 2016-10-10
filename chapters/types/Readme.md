@@ -153,7 +153,7 @@ isFinite(1.7e308);                  //true
 isFinite(1.8e308);                  //false
 isFinite(Infinity);                 //false
 isFinite(-Infinity);                //false
-isFinite(Number.MAX_VALUE + 1);     //false
+isFinite(Number.MAX_VALUE + 1);     //true
 isFinite(Number.POSITIVE_INFINITY); //false
 isFinite(Number.NEGATIVE_INFINITY); //false
 ```
